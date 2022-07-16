@@ -1,3 +1,4 @@
+import NotificationButton from '../Notification/NotificationButton'
 import './style.css'
 
 
@@ -43,7 +44,7 @@ function Sales(){
                                     <div className="dsmeta-red-btn-conteiner">
 
                                         <div className="dsmeta-red-btn">
-                                            <img src="inconeNotificacao.svg" alt=""/>
+                                            <NotificationButton/>
                                         </div>
                                     </div>
                                     
@@ -62,7 +63,7 @@ function Sales(){
                                 <th>
                                     <div className="dsmeta-red-btn-conteiner">
                                         <div className="dsmeta-red-btn">
-                                            <img src="inconeNotificacao.svg" alt=""/>
+                                            <NotificationButton/>
                                         </div>
                                     </div>
                                 
@@ -79,7 +80,7 @@ function Sales(){
                                 <th>
                                     <div className="dsmeta-red-btn-conteiner">
                                         <div className="dsmeta-red-btn">
-                                            <img src="inconeNotificacao.svg" alt=""/>
+                                           <NotificationButton/>
                                     </div>
                                 </div>
                                 </th>
