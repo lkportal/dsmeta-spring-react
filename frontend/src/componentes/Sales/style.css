@@ -1,0 +1,97 @@
+a,a:hover,a:visited{
+    text-decoration: none;
+    text-transform: none;
+}
+.dsmeta-title-vendas{
+    color: #676FFF;
+    font-size: 24px;
+    margin-bottom:21px;
+    margin-top: 32px;
+    margin-left: 15px;
+    
+}
+.dsmeta-format-control{
+    border: 1px solid #384459;
+    border-radius: 5px;
+    background-color: #1B2531;
+    width: 90%;
+    height: 46;
+    color: white;
+    font-size: 18px;
+    margin-left: 10px;
+    
+    
+    
+}
+.dsmeta-format-control-div{
+    margin-bottom: 16px;
+    max-width: 300px;
+}
+.ddmeta-sale-table{
+    width: 100%;
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+.ddmeta-sale-table thead th{
+    font-size: 18px;
+    font-weight: bold;
+    height: 24px;
+    color: #E9E9E9;
+    width: 700;
+}
+.ddmeta-sale-table tbody{
+    font-size: 14px;
+    width: 400;
+    color: #CFCFCF;
+    text-align: center;
+}
+.ddmeta-sale-table tr{
+    border: 1px solid #5F6E82;
+    width: 280px;
+    height: 74px;
+    top: 605px;
+    left: 25px;
+
+}
+.ddmeta-sale-table tbody tr:hover > th{
+    background-color: #384459;
+}
+
+
+.ddmeta-sale-table tbody tr:nth-child(odd){
+    background-color: #1B2531;
+    ;
+}
+
+.dsmeta-red-btn-conteiner{
+    display: flex;
+    justify-content: center;
+
+}
+  
+.show576{
+    display: none;
+}
+@media(min-width: 576px){
+    .show576{
+        display: table-cell;
+    }
+    .dsmeta-card{
+        padding: 35px;
+    }
+    .ddmeta-sale-table tbody{
+        font-size: 18px;
+    }
+    .ddmeta-sale-table thead th{
+        font-size: 25px;
+    }
+}
+.show992{
+    display: none;
+}
+@media(min-width: 900px){
+    .show992{
+        display: table-cell;
+    }
+}
+
