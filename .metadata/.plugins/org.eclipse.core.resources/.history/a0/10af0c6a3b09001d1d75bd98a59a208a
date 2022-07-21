@@ -1,0 +1,22 @@
+package com.lkportal.dsmeta.services;
+
+import java.awt.print.Pageable;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Page;
+import org.springframework.stereotype.Service;
+
+import com.lkportal.dsmeta.entities.Sales;
+import com.lkportal.dsmeta.repositories.SalesRepository;
+@Service
+public class SalesService {
+	
+	@Autowired
+	SalesRepository saleRepository;
+	
+	
+	public Page<Sales> findSales(Pageable pageable){
+		return saleRepository.findAll(pageable);
+	}
+	
+}
