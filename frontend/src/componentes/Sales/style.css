@@ -10,13 +10,13 @@ a,a:hover,a:visited{
     margin-left: 15px;
     
 }
-.dsmeta-format-control{
+.ddsmeta-form-control{
     border: 1px solid #384459;
     border-radius: 5px;
     background-color: #1B2531;
     width: 90%;
     height: 46;
-    color: white;
+    color: #384459;
     font-size: 18px;
     margin-left: 10px;
     
