@@ -1,0 +1,5 @@
+package com.lkportal.dsmeta.entities;
+
+public class Sales {
+
+}
