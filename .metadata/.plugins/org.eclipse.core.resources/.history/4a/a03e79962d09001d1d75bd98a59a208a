@@ -1,0 +1,5 @@
+package com.lkportal.dsmeta.repositories;
+
+public interface SalesRepository {
+
+}

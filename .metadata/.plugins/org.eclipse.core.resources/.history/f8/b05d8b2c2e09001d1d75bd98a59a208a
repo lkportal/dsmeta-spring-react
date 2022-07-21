@@ -1,0 +1,15 @@
+package com.lkportal.dsmeta.resources;
+
+import com.lkportal.dsmeta.services.SalesService;
+
+public class SalesResource {
+	
+	SalesService services;
+	
+	
+	public List<Sales> findAll(){
+		return services.findAll();
+	}
+	
+	
+}

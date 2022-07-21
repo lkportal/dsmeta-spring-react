@@ -1,0 +1,5 @@
+package com.lkportal.dsmeta.services;
+
+public class SalesService {
+
+}

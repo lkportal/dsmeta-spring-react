@@ -23,7 +23,9 @@ public class Sales {
 	private LocalDate date;
 	
 	
-	
+	public Sales() {
+		
+	}
 	
 	public Sales(Long id, String sellerName, Integer visited, Integer deals, Double amount, LocalDate date) {
 		super();

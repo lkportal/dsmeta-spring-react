@@ -1,0 +1,18 @@
+package com.lkportal.dsmeta.services;
+
+import java.util.List;
+
+import com.lkportal.dsmeta.entities.Sales;
+import com.lkportal.dsmeta.repositories.SalesRepository;
+
+public class SalesService {
+	
+	
+	SalesRepository saleRepository;
+	
+	
+	public List<Sales> findAll(){
+		return saleRepository.findAll();
+	}
+	
+}
